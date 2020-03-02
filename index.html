@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Crystall Collector</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text.css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+    <body>
+
+      <div class="container">
+          <div class="row">
+              <h1 class="display-4 main-header">Crystal Collector Game</h1>
+          </div>
+          
+          <div class="row">
+              <div class="col-lg-6 instructions">
+                  <h2>Instructions:</h2>
+                  <p class="lead">You will be given a random number at the start of the game.</p>
+                  <p class="lead">There are four crystals below. By clicking on a crystal you will add a specific amount of      points to your total score.</p>
+                  <p class="lead">You win the game by matching your total score to the random number; you lose the game if your total score goes above the random number.</p>
+                  <p class="lead">The value of each crystal is hidden until you click on it.</p>
+                  <p class="lead">Each time the game starts, the game will change the values of each crystal.</p>
+              </div>
+          </div>
+          
+          <div class="row">
+              <div class="col-lg-6 random-number">Random Generated Number</div>
+              <div class="col-lg-3"></div>
+              <div class="col-lg-2 total">
+                  <div class="row wins">Wins</div>
+                  <div class="row losses">Losses</div>
+              </div>
+          </div>
+          
+          <div class="row">
+              <div class="col-lg-3 crystals">
+                  <div id="amethyst"></div>
+              </div>
+              <div class="col-lg 3">
+                  <div id="sapphire"></div>
+              </div>
+              <div class=col-lg-3>
+                  <div id="ruby"></div>
+              </div>
+              <div class="col-lg-3">
+                  <div id="obsidian"></div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-6 total-score">Your total score is</div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-6 score-tron">Your Score</div>
+          </div>
+      </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+
+</html>
