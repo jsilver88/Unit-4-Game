@@ -5,7 +5,7 @@ $(document).ready(function(){
     var score = 0;
 
 
-    var randNum = Math.floor(Math.random() * 120) + 1;
+    var randNum = Math.floor(Math.random() * (120 - 19)) + 19;
         console.log("random number is: " + randNum);
         $(".random-number").text(randNum);
 
@@ -31,7 +31,7 @@ $(document).ready(function(){
         score = 0;
         $(".score-tron").text(score);
 
-        randNum = Math.floor(Math.random() * 100) + 1;
+        randNum = Math.floor(Math.random() * (120 - 19)) + 19;
         console.log("random number is: " + randNum);
         $(".random-number").text(randNum);
 
