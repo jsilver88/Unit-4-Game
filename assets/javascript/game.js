@@ -37,19 +37,19 @@ $(document).ready(function(){
 
     
         emerald = Math.floor(Math.random() * 10) + 1;
-        console.log("Amethyst value: " + emerald);
+        console.log("Emerald:  " + emerald);
         $("#emerald").html("<img src=" + "assets/images/Emerald.jpg" + " value=" + emerald + ">");
 
         lapis = Math.floor(Math.random() * 10) + 1;
-        console.log("Sapphire value: " + lapis);
+        console.log("Lapis: " + lapis);
         $("#lapis").html("<img src=" + "assets/images/Lapis_Lazuli.jpg" + " value=" + lapis + ">");
 
         quartz = Math.floor(Math.random() * 10) + 1;
-        console.log("Ruby value: " + quartz);
+        console.log("Quartz: " + quartz);
         $("#quartz").html("<img src=" + "assets/images/Nether_Quartz.jpg" + " value=" + quartz + ">");
 
         diamond = Math.floor(Math.random() * 10) + 1;
-        console.log("Obsidian value: " + diamond);
+        console.log("Diamond: " + diamond);
         $("#diamond").html("<img src=" + "assets/images/diamond.jpg" + " value=" + diamond + ">");
 
 
